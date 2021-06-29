@@ -51,10 +51,12 @@ body{
      font-family: 'Courier New', Courier, monospace;
      border-radius: 2in;
      padding: 15px;
-     font-size: 1.2em;
+     font-size: 1.6em;
     
 }
 /*thats the pseudo-class*/
 .last-part li a:visited{ color:white;
-    background-color:white
+    background-color:white;
+
+    
 }
