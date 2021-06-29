@@ -27,9 +27,9 @@ body{
    font-family: 'Courier New', Courier, monospace;
    border-style: solid;
    color:white;
-   width: 70%;
+   width: 100%;
    display: inline-block;
-   font-size: 1.2em;
+   font-size:x-large;
 }
 .picture{
     width: 50%;
@@ -51,10 +51,12 @@ body{
      font-family: 'Courier New', Courier, monospace;
      border-radius: 2in;
      padding: 15px;
+     font-size: 1.2em;
     
 }
 /*thats the pseudo-class*/
 .last-part a:visited{ color:white;
     background-color:red;
-    
+    font-size:x-large;;
+
 }
