@@ -7,7 +7,7 @@ body{
     display:flex;
     height: 431px;
 }
-
+/*thats the picture classs i did change everthing from here*/
 .prof-pic{
     border-style: solid;
     border-radius: 5%;
@@ -19,6 +19,7 @@ body{
 .title-wrapper{
     text-align:center;
 }
+/*thats the head second future change*/
 .head-text{
    text-align: center;
    background-color: #4070F4;
@@ -28,7 +29,7 @@ body{
    color:white;
    width: 70%;
    display: inline-block;
-
+   font-size: 1.2em;
 }
 .picture{
     width: 50%;
@@ -44,10 +45,16 @@ body{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-.last-part {
+.last-part  {
      background-color:#4070F4;
      text-align: center;
      font-family: 'Courier New', Courier, monospace;
      border-radius: 2in;
-   
+     padding: 15px;
+    
+}
+/*thats the pseudo-class*/
+.last-part a:visited{ color:white;
+    background-color:red;
+    
 }
