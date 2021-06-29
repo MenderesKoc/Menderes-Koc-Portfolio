@@ -57,6 +57,7 @@ body{
 /*thats the pseudo-class*/
 .last-part li a:visited{ color:white;
     background-color:white;
-
-    
+}
+.space{
+    color: white;
 }
