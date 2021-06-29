@@ -29,7 +29,7 @@ body{
    color:white;
    width: 100%;
    display: inline-block;
-   font-size:x-large;
+   
 }
 .picture{
     width: 50%;
@@ -55,8 +55,8 @@ body{
     
 }
 /*thats the pseudo-class*/
-.last-part a:visited{ color:white;
+.last-part a:visited{ color:black;
     background-color:red;
-    font-size:x-large;;
-
+    font-size:x-large;
+    absolute-size:x-large
 }
