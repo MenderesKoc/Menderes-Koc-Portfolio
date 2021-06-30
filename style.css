@@ -63,5 +63,5 @@ body{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
-    font-display:grid ;
+    font-display:revert;
 }
