@@ -52,17 +52,16 @@ body{
      border-radius: 2in;
      padding: 15px;
      font-size: 1.6em;
-     color: red;
+     color:#FFFFFF
     
 }
 /*thats the pseudo-class*/
 .last-part li a:visited{color:#FFFFFF;
     background-color:white;
-    font-size: 1.6em;
+    font-family: 'Courier New', Courier, monospace;
 }
 .space{
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1em;
     font-display:grid;
 }
