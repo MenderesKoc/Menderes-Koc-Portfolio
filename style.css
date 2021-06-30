@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(245, 248, 246);
+    background-color:#FFFFFF;
 }
 
 .pic-profbox{
@@ -55,12 +55,12 @@ body{
     
 }
 /*thats the pseudo-class*/
-.last-part  a:visited{ color:#FFFFFF;
+.last-part li a:visited{color:#FFFFFF;
     background-color:(255,255,255);
     font-size: 1.6em;
 }
 .space{
-    color: #FFFFFF;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     font-display:grid;
