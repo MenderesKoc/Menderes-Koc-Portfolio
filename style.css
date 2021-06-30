@@ -57,7 +57,11 @@ body{
 /*thats the pseudo-class*/
 .last-part li a:visited{ color:white;
     background-color:white;
+    font-size: 1.6em;
 }
 .space{
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    text-align: center;
 }
