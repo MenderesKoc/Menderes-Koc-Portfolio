@@ -55,13 +55,13 @@ body{
     
 }
 /*thats the pseudo-class*/
-.last-part  a:visited{ color:white;
-    background-color:white;
+.last-part  a:visited{ color:#FFFFFF;
+    background-color:(255,255,255);
     font-size: 1.6em;
 }
 .space{
-    color: white;
+    color: #FFFFFF;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
-    font-display:revert;
+    font-display:grid;
 }
