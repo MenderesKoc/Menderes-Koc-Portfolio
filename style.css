@@ -63,8 +63,11 @@ body{
 .space{
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    font-display:grid;
+    display: inline-block;
 }
 .li{
     text-align-last: start !important;
+}
+.link{
+    color: white !important;
 }
