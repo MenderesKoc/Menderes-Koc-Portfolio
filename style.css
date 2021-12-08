@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color:#FFFFFF;
 }
@@ -71,3 +72,80 @@ body{
 .link{
     color: white !important;
 }
+=======
+body{
+    background-color:#FFFFFF;
+}
+
+.pic-profbox{
+    width:100%;
+    display:flex;
+    height: 431px;
+}
+/* picture */
+.prof-pic{
+    border-style: solid;
+    border-radius: 5%;
+    width: auto;
+    height: 100%;
+    float: right;
+    margin-right: 43px;
+}
+.title-wrapper{
+    text-align:center;
+}
+/*head section*/
+.head-text{
+   text-align: center;
+   background-color: #4070F4;
+   border-radius: 2in;
+   font-family: 'Courier New', Courier, monospace;
+   border-style: solid;
+   color:white;
+   width: 100%;
+   display: inline-block;
+   
+}
+.picture{
+    width: 50%;
+}
+.prof-box{
+    width: 50%;
+}
+.second-part{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.third-part{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.last-part  {
+     background-color:#4070F4;
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+     border-radius: 2in;
+     padding: 15px;
+     font-size: 1.6em;
+     color:#FFFFFF
+    
+}
+
+/*pseudo-class*/
+.last-part li a:visited{color:#FFFFFF;
+    background-color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.space{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.li{
+    text-align-last: start !important;
+}
+.link{
+    color: white !important;
+}
+ /*pseudo-class end*/ 
+>>>>>>> 002b8a4 (<update about me section>)
