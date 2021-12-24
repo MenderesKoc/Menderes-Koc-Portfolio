@@ -1,151 +1,108 @@
-<<<<<<< HEAD
-body{
-    background-color:#FFFFFF;
+/*ccs function color & main body code*/
+:root {
+    --white:rgb(255, 255, 255);
+    --solid-black-navbar:rgba(0, 0, 0,0.5);
+    --black:(0,0,0);
 }
 
-.pic-profbox{
-    width:100%;
-    display:flex;
-    height: 431px;
-}
-/*thats the picture classs i did change everthing from here*/
-.prof-pic{
-    border-style: solid;
-    border-radius: 5%;
-    width: auto;
-    height: 100%;
-    float: right;
-    margin-right: 43px;
-}
-.title-wrapper{
-    text-align:center;
-}
-/*thats the head second future change*/
-.head-text{
-   text-align: center;
-   background-color: #4070F4;
-   border-radius: 2in;
-   font-family: 'Courier New', Courier, monospace;
-   border-style: solid;
-   color:white;
-   width: 100%;
-   display: inline-block;
-   
-}
-.picture{
-    width: 50%;
-}
-.prof-box{
-    width: 50%;
-}
-.second-part{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-.third-part{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-.last-part  {
-     background-color:#4070F4;
-     text-align: center;
-     font-family: 'Courier New', Courier, monospace;
-     border-radius: 2in;
-     padding: 15px;
-     font-size: 1.6em;
-     color:#FFFFFF
-    
-}
-/*thats the pseudo-class*/
-.last-part li a:visited{color:#FFFFFF;
-    background-color:white;
-    font-family: 'Courier New', Courier, monospace;
-}
-.space{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    display: inline-block;
-}
-.li{
-    text-align-last: start !important;
-}
-.link{
-    color: white !important;
-}
-=======
-body{
-    background-color:#FFFFFF;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
 }
 
-.pic-profbox{
-    width:100%;
-    display:flex;
-    height: 431px;
-}
-/* picture */
-.prof-pic{
-    border-style: solid;
-    border-radius: 5%;
-    width: auto;
-    height: 100%;
-    float: right;
-    margin-right: 43px;
-}
-.title-wrapper{
-    text-align:center;
-}
-/*head section*/
-.head-text{
-   text-align: center;
-   background-color: #4070F4;
-   border-radius: 2in;
-   font-family: 'Courier New', Courier, monospace;
-   border-style: solid;
-   color:white;
-   width: 100%;
-   display: inline-block;
-   
-}
-.picture{
-    width: 50%;
-}
-.prof-box{
-    width: 50%;
-}
-.second-part{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-.third-part{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-.last-part  {
-     background-color:#4070F4;
-     text-align: center;
-     font-family: 'Courier New', Courier, monospace;
-     border-radius: 2in;
-     padding: 15px;
-     font-size: 1.6em;
-     color:#FFFFFF
-    
+/* end ccs function color & main body code end*/
+
+/*navbar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--solid-black-navbar);
+    position: sticky;
+    top: 0;
 }
 
-/*pseudo-class*/
-.last-part li a:visited{color:#FFFFFF;
-    background-color:white;
-    font-family: 'Courier New', Courier, monospace;
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
 }
-.space{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    display: inline-block;
+
+.navbar ul li {
+    font-family: 'Dancing Script', cursive;;
+    font-size: 20px;
 }
-.li{
-    text-align-last: start !important;
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 8px 25px;
+    transition: all .5s ease; 
 }
-.link{
-    color: white !important;
+
+.navbar ul li a:hover {
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: 0 0 10px var(--white);
 }
- /*pseudo-class end*/ 
->>>>>>> 002b8a4 (<update about me section>)
+
+/*home section*/
+#home {
+    flex-direction: column;
+    display: flex;
+    background-color: var(--solid-black-navbar);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(/images/portfolio-background.jpg);
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px solid var(--white);
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+
+.heading-text {
+    font-family:'Dancing Script', cursive; 
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.btn-box {
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    outline: none;
+    transition: .6s ease;
+}
+
+.btn-box:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow:0 0 5px var(--white) , 0 0 10px var(--white) , 0 0 15px var(--white);
+}
+
+/*home section end*/
