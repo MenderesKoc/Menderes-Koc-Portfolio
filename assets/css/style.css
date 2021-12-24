@@ -65,7 +65,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url(/images/portfolio-background.jpg);
+    background-image: url(/assets/images/home-background.jpg);
     background-size: cover;
     height: 900px;
     width: 100%;
