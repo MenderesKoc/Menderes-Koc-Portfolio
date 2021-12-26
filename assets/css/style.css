@@ -273,12 +273,6 @@ html {
 
 }
 
-/*media query for tablets and smaller*/
-
-@media screen and (max-width: 768px) {
-  
-}
-
 /*media query for mobile phones and smaller*/
 
 @media screen and (max-width: 530px) {
