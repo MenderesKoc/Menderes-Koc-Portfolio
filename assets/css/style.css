@@ -55,9 +55,9 @@ html {
 /*home section*/
 #home {
     flex-direction: column;
-    display: flex;
+    display: inline-flex;
     background-color: var(--solid-black-navbar);
-    height: 840px;
+    height: 790px;
     justify-content: center;
     align-items: center;
     color: var(--black);
@@ -69,7 +69,6 @@ html {
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url("/assets/images/home-background.jpg");
     background-size: cover;
     height: 900px;
     width: 100%;
@@ -116,7 +115,6 @@ html {
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    background-color: var(--solid-black-navbar);
 }
 
 #profile-pic {
