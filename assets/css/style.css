@@ -25,7 +25,6 @@ html {
     align-items: center;
     background-color: var(--solid-black-navbar);
     position: sticky;
-    top: 0;
 }
 
 .navbar ul {
@@ -136,7 +135,7 @@ html {
 }
 
 .intro h2 {
-    font-size: 30px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
