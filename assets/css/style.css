@@ -69,7 +69,7 @@ html {
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url(/assets/images/home-background.jpg);
+    background-image: url("/assets/images/home-background.jpg");
     background-size: cover;
     height: 900px;
     width: 100%;
@@ -235,7 +235,7 @@ html {
 
 /*media query for smaller desktop screens and smaller*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
 #profile-pic{
     flex-direction: column;
     align-items: center;
