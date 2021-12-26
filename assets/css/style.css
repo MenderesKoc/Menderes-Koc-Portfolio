@@ -3,6 +3,7 @@
     --white:rgb(255, 255, 255);
     --solid-black-navbar:rgba(0, 0, 0,0.5);
     --black:(0,0,0);
+    --red-color:rgb(255, 45, 45);
 }
 
 * {
@@ -76,17 +77,16 @@
 .main {
     display: flex;
     flex-direction: column;
-    border-radius: 1px solid var(--white);
     align-items: center;
     position: absolute;
-    top: 30%;
+    top: 25%;
 }
 
 .heading-text {
     font-family:'Dancing Script', cursive; 
     font-size: 40px;
     text-align: center;
-    margin: 40px 0px;
+    margin: 25px 0px;
 }
 
 .btn-box {
@@ -106,3 +106,77 @@
 }
 
 /*home section end*/
+
+#about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#profile-pic {
+    display: flex;
+}
+
+#profile-pic img {
+    width: 575px;
+    height: 400px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+.intro h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*my work section*/
+
+#mywork {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid var(--solid-black-navbar);
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, var(--red-color)50% , var(--white)50%);
+    background-size:100% 200%;
+    transition: all .8s;
+}
+
+.box:hover {
+    background-position: left bottom;
+    color: var(--white);
+    border: none;
+    box-shadow: 0 0 20px var(--red-color);
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
