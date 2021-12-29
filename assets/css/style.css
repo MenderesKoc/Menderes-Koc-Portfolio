@@ -56,7 +56,7 @@
 #home {
     flex-direction: column;
     display: flex;
-    height: 808px;
+    height: 458px;
     justify-content: center;
     align-items: center;
     color: var(--white);
@@ -68,7 +68,7 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 50%;
+    top: 25%;
 }
 
 .heading-text {
