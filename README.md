@@ -16,7 +16,7 @@ Personal website portfolio.
 
 ## Screenshot
 
-    *link to (Webside) https://mendereskoc.github.io/Menderes-Koc-Portfolio/
+    ![link to](assets/images/Screenshot.png)
 
 
 ## Some Link For Documentation HTML.CSS
