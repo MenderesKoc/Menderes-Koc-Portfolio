@@ -265,8 +265,8 @@
 .social-links ul {
     padding: 10px;
     display: flex;
-    width: 300px;
-    height: 30px;
+    width: 270px;
+    height: 50px;
     margin: auto;
 }
 
@@ -282,9 +282,15 @@
 
 .quick-links {
     display: flex;
-    width: 560px;
-    height: 70px;
+    width: 400px;
+    height: 35px;
     margin: auto;
+}
+
+.social-items a:hover {
+    color: var(--black);
+    background-color: var(--white);
+    box-shadow: 0 0 10px var(--white);
 }
 
 .quick-links ul {
@@ -304,7 +310,9 @@
 }
 
 .quick-items a:hover {
-    color: var(--red-color);
+    color: var(--white);
+    background-color: var(--black);
+    box-shadow: 0 0 10px var(--white);
 }
 
 .outer-footer {
@@ -325,17 +333,25 @@
   }
 
  #profile-pic img {
-      width: 400px;
-      height: auto;
-  }
+    width: 300px;
+    height: auto;
+}
 
-#intro h2 {
-      text-align: center;
-      padding: 10px;
-  }
+.intro p {
+  text-align: center;
+  font-size: 20px;
+}
   
 .heading-text {
-    font-size: 40px;
+    font-size: 25px;
+}
+
+.intro h2 {
+    font-size: 25px;
+}
+
+.box p {
+    font-size: 20px;
 }
 
 .navbar ul {
@@ -343,15 +359,12 @@
     justify-content: center;
 }
 .input {
-    width: 55%;
+    width: 50%;
 }
 
-#img {
-    width: 55%;
-}
-
-#send {
-    width: 20%;
+.box img {
+    width: 220px;
+    height: auto;
 }
 
 }
@@ -376,5 +389,4 @@
     font-size: 20px;
 }
 
-  
 }
