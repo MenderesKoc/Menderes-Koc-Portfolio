@@ -5,9 +5,10 @@
 Personal website portfolio.
 
 ## Built With
+
     * HTML
     * CSS
-    **WAI Sample work
+    **WAI 
 
 ## Website
     
@@ -15,7 +16,7 @@ Personal website portfolio.
 
 ## Screenshot
 
-    ![link to](assets/images/Screenshot.png)
+    *link to (Webside) https://mendereskoc.github.io/Menderes-Koc-Portfolio/
 
 
 ## Some Link For Documentation HTML.CSS
