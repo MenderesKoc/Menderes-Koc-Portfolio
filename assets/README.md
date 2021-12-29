@@ -1,1 +1,0 @@
-# Menderes-Koc-Portfolio
