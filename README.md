@@ -13,7 +13,7 @@ Personal website portfolio.
 
 ## Screenshot
 
-![alt text](assets/images/Screenshot.png)
+![alt text](assets/images/ss-website.png)
 
 ## Website
 
