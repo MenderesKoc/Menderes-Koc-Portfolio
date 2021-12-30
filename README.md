@@ -12,7 +12,10 @@ Personal website portfolio.
 
 ## Website
     
-    [This is a link to website] (https://github.com/MenderesKoc/Menderes-Koc-Portfolio.git)
+
+    [HTML Cheat Sheet](https://mendereskoc.github.io/Menderes-Koc-Portfolio/)
+
+    [This is a link to website](https://mendereskoc.github.io/Menderes-Koc-Portfolio/)
 
 ## Screenshot
 
