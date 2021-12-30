@@ -12,11 +12,11 @@ Personal website portfolio.
 
 ## Website
     
-    *link to (https://mendereskoc.github.io/Menderes-Koc-Portfolio/)
+    [This is a link to website] (https://mendereskoc.github.io/Menderes-Koc-Portfolio/)
 
 ## Screenshot
 
-    ![ScreenShot](assets/Screenshot.png)
+    ![alt text](assets/images/Screenshot.png)
 
 
 ## Some Link For Documentation HTML.CSS
