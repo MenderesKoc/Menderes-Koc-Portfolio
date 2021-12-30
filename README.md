@@ -16,7 +16,7 @@ Personal website portfolio.
 
 ## Screenshot
 
-    ![alt text](assets/images/Screenshot.png)
+    ![alt text](./assets/images/screenshot.png)
 
 
 ## Some Link For Documentation HTML.CSS
