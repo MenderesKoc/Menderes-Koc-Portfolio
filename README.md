@@ -10,16 +10,14 @@ Personal website portfolio.
     * CSS
     **WAI 
 
-## Website
-    
-
-    [HTML Cheat Sheet](https://mendereskoc.github.io/Menderes-Koc-Portfolio/)
-
-    [This is a link to website](https://mendereskoc.github.io/Menderes-Koc-Portfolio/)
 
 ## Screenshot
 
-    ![alt text](./assets/images/screenshot.png)
+![alt text](./assets/images/screenshot.png)
+
+## Website
+
+[This is a link to website](https://mendereskoc.github.io/Menderes-Koc-Portfolio/)
 
 
 ## Some Link For Documentation HTML.CSS
