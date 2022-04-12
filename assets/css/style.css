@@ -1,17 +1,17 @@
 /*ccs function color & main body code*/
 :root {
-    --white:rgb(255, 255, 255);
-    --solid-black-navbar:rgba(0, 0, 0,0.5);
-    --black:rgba(0,0,0,0.9);
-    --red-color:rgb(255, 45, 45);
-    --black-2:rgba(0, 0, 0, 0.03);
+    --white: rgb(255, 255, 255);
+    --solid-black-navbar: rgba(0, 0, 0, 0.5);
+    --black: rgba(0, 0, 0, 0.9);
+    --red-color: rgb(255, 45, 45);
+    --black-2: rgba(0, 0, 0, 0.03);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* end ccs function color & main body code end*/
@@ -24,7 +24,7 @@
     background-color: var(--solid-black-navbar);
     position: fixed;
     width: 100%;
-    
+
 }
 
 .navbar ul {
@@ -34,7 +34,7 @@
 }
 
 .navbar ul li {
-    font-family:'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 20px;
 }
 
@@ -42,7 +42,7 @@
     text-decoration: none;
     color: var(--white);
     padding: 8px 25px;
-    transition: all .5s ease; 
+    transition: all .5s ease;
     font-size: 30px;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .heading-text {
-    font-family:'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     font-size: 48px;
     text-align: center;
     padding: 20px;
@@ -86,7 +86,7 @@
 .box p {
     text-align: center;
     font-size: 25px;
-    padding:20px;
+    padding: 20px;
 }
 
 .btn-box {
@@ -103,7 +103,7 @@
     cursor: pointer;
     background-color: var(--white);
     color: var(--black);
-    box-shadow:0 0 5px var(--white) , 0 0 10px var(--white) , 0 0 15px var(--white);
+    box-shadow: 0 0 5px var(--white), 0 0 10px var(--white), 0 0 15px var(--white);
 }
 
 /*home section end*/
@@ -121,6 +121,8 @@
 #profile-pic img {
     width: 400px;
     height: auto;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 .intro {
@@ -140,7 +142,7 @@
 .intro p {
     font-size: 25px;
     margin-bottom: 20px;
-    padding:20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -180,8 +182,8 @@
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, var(--red-color)50% , var(--white)50%);
-    background-size:100% 200%;
+    background: linear-gradient(to top, var(--red-color)50%, var(--white)50%);
+    background-size: 100% 200%;
     transition: all .8s;
     margin-bottom: 3%;
 }
@@ -195,9 +197,11 @@
 
 .box img {
     width: 340px;
-    height: 240px;;
+    height: 240px;
+    ;
     padding: 10px;
 }
+
 /*contact me section*/
 
 #contact {
@@ -217,7 +221,7 @@
 
 }
 
-.form input{
+.form input {
     padding: 12px;
     margin: 15px;
     border-radius: 30px;
@@ -229,9 +233,10 @@
 .map {
     width: 49%;
     border-radius: 20px;
-    box-shadow:8px 8px 18px #00000029;
+    box-shadow: 8px 8px 18px #00000029;
 }
-.form-label{
+
+.form-label {
     margin-left: 15px;
 }
 
@@ -242,13 +247,13 @@
     box-shadow: 1px 6px 18px #00000029;
     font-size: 20px;
     text-align: center;
-    
+
 }
 
 .send-btn:hover {
     cursor: pointer;
     background-color: var(--white);
-    box-shadow:0 0 5px var(--white) , 0 0 10px var(--white) , 0 0 15px var(--white);
+    box-shadow: 0 0 5px var(--white), 0 0 10px var(--white), 0 0 15px var(--white);
 }
 
 /*footer section*/
@@ -327,66 +332,67 @@
 /*media query for smaller desktop screens and smaller*/
 
 @media screen and (max-width: 980px) {
-#profile-pic{
-    flex-direction: column;
-    align-items: center;
-  }
+    #profile-pic {
+        flex-direction: column;
+        align-items: center;
+    }
 
- #profile-pic img {
-    width: 300px;
-    height: auto;
-}
+    #profile-pic img {
+        width: 300px;
+        height: auto;
+    }
 
-.intro p {
-  text-align: center;
-  font-size: 20px;
-}
-  
-.heading-text {
-    font-size: 25px;
-}
+    .intro p {
+        text-align: center;
+        font-size: 20px;
+    }
 
-.intro h2 {
-    font-size: 25px;
-}
+    .heading-text {
+        font-size: 25px;
+    }
 
-.box p {
-    font-size: 20px;
-}
+    .intro h2 {
+        font-size: 25px;
+    }
 
-.navbar ul {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.input {
-    width: 50%;
-}
+    .box p {
+        font-size: 20px;
+    }
 
-.box img {
-    width: 220px;
-    height: auto;
-}
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .input {
+        width: 50%;
+    }
+
+    .box img {
+        width: 220px;
+        height: auto;
+    }
 
 }
 
 /*media query for mobile phones and smaller*/
 
 @media screen and (max-width: 530px) {
-#home {
-    height: 820px;
-}
+    #home {
+        height: 820px;
+    }
 
-.heading-text {
-    font-size: 20px;
-}
+    .heading-text {
+        font-size: 20px;
+    }
 
-#profile-pic img {
-    width: 400px;
-    height: auto;
-}
+    #profile-pic img {
+        width: 400px;
+        height: auto;
+    }
 
-#intro {
-    font-size: 20px;
-}
+    #intro {
+        font-size: 20px;
+    }
 
 }
