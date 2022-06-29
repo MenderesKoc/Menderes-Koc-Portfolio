@@ -324,6 +324,16 @@
   background-color: var(--black);
 }
 
+#contact-me li {
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+  list-style-type: none;
+  margin: 25px;
+  color: var(--black);
+  
+}
+
 /*media query for smaller desktop screens and smaller*/
 
 @media screen and (max-width: 980px) {
@@ -371,7 +381,7 @@
 
 /*media query for mobile phones and smaller*/
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 550px) {
   #home {
     height: 820px;
   }
@@ -387,6 +397,18 @@
 
   #intro {
     font-size: 20px;
+  }
+  .box p {
+    font-size: 15px;
+    text-align: center;
+    padding: 26px;
+  }
+  .box img {
+    width: 360px;
+    height: auto;
+  }
+  .box {
+    width: auto;
   }
 }
 
