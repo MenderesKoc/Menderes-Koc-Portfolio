@@ -331,6 +331,8 @@
   list-style-type: none;
   margin: 25px;
   color: var(--black);
+  margin: 0;
+  padding: 0;
   
 }
 
